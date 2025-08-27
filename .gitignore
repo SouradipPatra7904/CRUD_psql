@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 
 ### Because application.properties contain sensitive info
+application.properties
 *.properties
 
 ### STS ###
