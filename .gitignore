@@ -4,7 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-application.properties
+### Because application.properties contain sensitive info
+*.properties
 
 ### STS ###
 .apt_generated
@@ -14,6 +15,7 @@ application.properties
 .settings
 .springBeans
 .sts4-cache
+.properties
 
 ### IntelliJ IDEA ###
 .idea
